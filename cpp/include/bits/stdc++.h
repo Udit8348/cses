@@ -28,4 +28,9 @@
 #include <utility>
 #include <vector>
 
+// Place this in a common header:
+#ifndef UNUSED
+#define UNUSED(x) (void)(x)
+#endif
+
 #endif // STDCPP_H
